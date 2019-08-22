@@ -97,10 +97,9 @@
 
 <script>
   // const select all checkboxes
-  // event listens for click-checkbox
-  // event listens for hold shift after click
-  // event listens for second click while shift holding
-  // function selects all boxes between the two clicks
+  // event listens for click-checkbox, executes function if clicked
+  // function selects all boxes between the two clicks if
+  // shift event is true by looping over all the checkboxes
   const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
 
   let lastChecked;
